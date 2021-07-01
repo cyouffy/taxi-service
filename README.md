@@ -16,6 +16,7 @@ new drivers and new cars.
 <li>Assign a driver for a vacant car</li>
 <li>Divide a driver from a car</li>
 </ul>
+
 <h2>Tech Stack</h2>
 <ul>
 <li>Apache Tomcat</li>
@@ -26,7 +27,6 @@ new drivers and new cars.
 <li>JSTL</li>
 <li>JSP, HTML</li>
 <li>Maven Checkstyle Plugin</li>
-<li>JDK 11</li>
 </ul>
 
 <h2>Requirements</h2>
@@ -38,3 +38,10 @@ new drivers and new cars.
 </ul>
 
 <h2>Project setup</h2>
+<ol>
+    <li>Clone this project into your local directory and open the project in an IDE.</li>
+    <li>To configure MySQL DBMS use the script from <a href="https://github.com/cyouffy/taxi-service/blob/added-project/src/main/resources/init_db.sql">resources/init_db.sql</a>.</li>
+    <li>Specify the URL to the database, as well as the password and username in the project directory <a href="https://github.com/cyouffy/taxi-service/blob/added-project/src/main/java/taxi/util/ConnectionUtil.java">taxi/util/ConnectionUtil.java</a>.</li>
+    <li>Configure Apache Tomcat.</li>
+    <li>Now you can run the project.</li>
+</ol>

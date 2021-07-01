@@ -7,8 +7,9 @@ import java.util.Properties;
 
 public class ConnectionUtil {
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://localhost:3306/jdbc_db";
-    private static final String SECURE_DATA = "root";
+    private static final String URL = "URL TO YOUR DATABASE";
+    private static final String USERNAME = "YOUR USERNAME";
+    private static final String PASSWORD = "YOUR PASSWORD";
 
     static {
         try {
@@ -21,8 +22,8 @@ public class ConnectionUtil {
     public static Connection getConnection() {
         try {
             Properties dbProperties = new Properties();
-            dbProperties.put("user", SECURE_DATA);
-            dbProperties.put("password", SECURE_DATA);
+            dbProperties.put("user", USERNAME);
+            dbProperties.put("password", PASSWORD);
             return DriverManager.getConnection(URL, dbProperties);
         } catch (SQLException e) {
             throw new RuntimeException("Can't create connection to DB", e);
