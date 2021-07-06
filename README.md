@@ -40,8 +40,8 @@ new drivers and new cars.
 <h2>Project setup</h2>
 <ol>
     <li>Clone this project into your local directory and open the project in an IDE.</li>
-    <li>To configure MySQL DBMS use the script from <a href="https://github.com/cyouffy/taxi-service/blob/added-project/src/main/resources/init_db.sql">resources/init_db.sql</a>.</li>
-    <li>Specify the URL to the database, as well as the password and username in the project directory <a href="https://github.com/cyouffy/taxi-service/blob/added-project/src/main/java/taxi/util/ConnectionUtil.java">taxi/util/ConnectionUtil.java</a>.</li>
+    <li>To configure MySQL DBMS use the script from <a href="https://github.com/cyouffy/taxi-service/blob/main/src/main/resources/init_db.sql">resources/init_db.sql</a>.</li>
+    <li>Specify the URL to the database, as well as the password and username in the project directory <a href="https://github.com/cyouffy/taxi-service/blob/main/src/main/java/taxi/util/ConnectionUtil.java">taxi/util/ConnectionUtil.java</a>.</li>
     <li>Configure Apache Tomcat.</li>
     <li>Now you can run the project.</li>
 </ol>
